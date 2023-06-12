@@ -2,176 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Caveat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <title>portofolio</title>
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
   </head>
   <body>
-    <header cla>
-      <nav class="flex">
-        <h4 onclick="clickFunction('home')">Atthoriq</h4>
-        <div id="drop">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul id="responsive">
-          <li onclick="clickFunction('about')">
-            <a onclick="clickFunction('about')" id="toabout ">About</a>
-          </li>
-          <li onclick="clickFunction('skill')">
-            <a onclick="clickFunction('skill')" id="toskill">Skill</a>
-          </li>
-          <li onclick="clickFunction('works')">
-            <a onclick="clickFunction('works')" id="toworks">Works</a>
-          </li>
-          <li onclick="clickFunction('contact')">
-            <a onclick="clickFunction('contact')" id="tocontact">Contact</a>
-          </li>
+    <header class="flex">
+      <h1>Atthoriq</h1>
+      <nav id="navbar">
+        <ul class="flex">
+          <li class="nav"><a href="#welcome-section">Home</a></li>
+          <li class="nav"><a href="#projects">Projects</a></li>
+          <li class="nav"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <h1 id="home" class="text-center">Your Digital Solution</h1>
-      <h3 class="text-center">
-        Buat bisnis anda lebih digital dan modern bersama kami
-      </h3>
     </header>
     <main>
-      <section class="v-margin-20">
-        <h2 id="about" class="text-center top-padding-50">About Me</h2>
-        <article class="flex top-padding-30 abouttext">
-          <p>
-            Saya Muhammad Atthoriq Aziz, Seorang Mahasiswa Jurusan Informatika
-            di sebuah Universitas yang terletak di kota jakarta. Selain sebagai
-            mahasiswa, saya juga seorang junior programmer yang lebih tepatnya
-            berada di bidang back-end sebuah website / Aplikasi
-          </p>
-          <p>
-            Mulai belajar pemrograman web sejak 2015 dan java sejak 2019. pada
-            2020 saya mulai membuat web untuk orang lain secara freelance.
-            Project terakhir yang saya kerjakan adalah program java untuk sebuah
-            sekolah di kota jakarta.
-          </p>
-        </article>
-      </section>
-      <section class="v-margin-50 text-center" id="bgskill">
-        <h2 id="skill" class="top-padding-50">Skill</h2>
-        <article class="v-margin-20">
-          <h3>Language</h3>
-          <ul class="logo flex v-margin-10">
-            <li><img src="assets/icon/java-logo.png" alt="Logo Java" /></li>
-            <li><img src="assets/icon/php-logo.png" alt="Logo Php" /></li>
-            <li><img src="assets/icon/css-logo.png" alt="logo Css" /></li>
-          </ul>
-        </article>
-        <article>
-          <h3>Frameworks</h3>
-          <ul class="logo flex v-margin-20">
-            <li>
-              <img src="assets/icon/codeigniter-logo.svg" alt="Codeigniter" />
-            </li>
-            <li>
-              <img src="assets/icon/bootstrap-logo.svg" alt="Bootstrap" />
-            </li>
-            <li>
-              <img
-                src="assets/icon/materialize-logo.png"
-                alt="Materialize Css"
-              />
-            </li>
-          </ul>
-        </article>
-      </section>
-      <section class="port">
-        <h2 id="works" class="text-center top-padding-50">WORKS</h2>
-        <ul class="portofolio flex">
-          <li>
-            <img
-              src="assets/works/java1.png"
-              onclick="Galery('java')"
-              alt="Java project"
-              id="java"
-            />
-          </li>
-          <li>
-            <img
-              src="assets/works/phpbootstrap1.png"
-              onclick="Galery('php')"
-              alt="php project"
-              id="php"
-            />
-          </li>
-          <li>
-            <img
-              src="assets/works/Cibootsrap1.png"
-              onclick="Galery('cIgniter')"
-              alt="Web Project"
-              id="ci"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="port">
-        <div class="slide" id="slide">
-          <img src="assets/works/java1.png" id="image" alt="slide gambar" />
-          <div class="button flex">
-            <a id="prev"><</a>
-            <a onclick="next('java')" id="next">></a>
-          </div>
-
-          <a id="close">Tutup</a>
+      <section id="welcome-section">
+        <div class="wrapper">
+          <h1>Muhammad Atthoriq Aziz</h1>
+          <h4>Web Developer || Java Developer</h4>
         </div>
       </section>
-      <section class="flex flex-col" id="bgcontact">
-        <h2 id="contact" class="text-center top-padding-50">Contact</h2>
-        <article class="flex contact">
-          <form action="" class="">
-            <div class="form flex flex-col">
-              <label for="email">Email</label>
-              <input type="email" name="" id="email" />
-            </div>
-            <div class="form flex flex-col">
-              <label for="Nama">Nama</label>
-              <input type="text" name="" id="Nama" />
-            </div>
-            <div class="form flex flex-col">
-              <label for="nohp">No Hp</label>
-              <input type="text" name="" id="nohp" />
-            </div>
-            <div class="form flex flex-col">
-              <label for="pesan">Pesan</label>
-              <textarea name="" id="pesan" cols="30" rows="10"></textarea>
-            </div>
-            <div class="form">
-              <button type="submit">Submit</button>
-            </div>
-          </form>
-          <aside class="text-center flex flex-col">
-            <h2 class="text-center">Biodata Diri</h2>
-            <img
-              src="assets/pasfoto/pasfoto.jpeg"
-              alt="pasfoto"
-              width="150px"
-            />
-            <h4>Muhammad Atthoriq Aziz</h4>
-            <h5>Junior Programmer | Mahasiswa</h5>
-          </aside>
-        </article>
+      <section id="projects">
+        <div class="section-title">
+          <h2>Works</h2>
+          <div class="splitter"></div>
+        </div>
+        <div class="flex projects" id="projects-parent"></div>
+      </section>
+      <section id="contact">
+        <h2>Let's Work together, Contact Me In:</h2>
+        <div class="link flex" id="profile-link"></div>
       </section>
     </main>
-    <footer class="text-center">&copy; Muhammad Atthoriq Aziz</footer>
-
-    <script src="js/script.js"></script>
+    <div class="splitter"></div>
+    <footer>
+      <h3 id="header-text">&COPY; Muhammad Atthoriq Aziz</h3>
+    </footer>
+    <script type="module" src="src/js/script.js"></script>
   </body>
 </html>

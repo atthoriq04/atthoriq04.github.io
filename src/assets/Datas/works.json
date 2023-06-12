@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "project-title": "Coffee Shop Inventory Management",
+    "img": "coffee.png",
+    "link": "https://github.com/atthoriq04/Kedai-Kopi-Garasi-23"
+  },
+  {
+    "id": 2,
+    "project-title": "React Notes",
+    "img": "reactNote.png",
+    "link": "https://atthoriq04.github.io/ReactNotes/"
+  },
+  {
+    "id": 3,
+    "project-title": "Bookself",
+    "img": "bookself.png",
+    "link": "https://atthoriq04.github.io/bookDataStore/"
+  },
+  {
+    "id": 4,
+    "project-title": "Library Management System",
+    "img": "libs.png",
+    "link": "https://github.com/atthoriq04/Perpustakaan-SMK-PGRI-1-Jakarta"
+  },
+  {
+    "id": 5,
+    "project-title": "Html Css Portofolio",
+    "img": "dicodePorto.png",
+    "link": "https://github.com/atthoriq04/dicodePortofolio"
+  },
+  {
+    "id": 6,
+    "project-title": "Codeigniter BookLists",
+    "img": "cibootsrap1.png",
+    "link": "https://github.com/atthoriq04/PublicBooksData"
+  }
+]

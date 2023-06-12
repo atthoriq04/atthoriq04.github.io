@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Github",
+    "img": "githubLogo.png",
+    "link": "https://github.com/atthoriq04"
+  },
+  {
+    "id": "2",
+    "name": "FreeCodeCamp",
+    "img": "fcclogo.png",
+    "link": "https://www.freecodecamp.org/atthoriq04"
+  },
+  {
+    "id": "3",
+    "name": "Lindkedln",
+    "img": "lindkedIn.png",
+    "link": "https://www.linkedin.com/in/muhammad-atthoriq-aziz-0b863a247/"
+  }
+]
